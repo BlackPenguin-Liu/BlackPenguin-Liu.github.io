@@ -2545,7 +2545,7 @@ h1.page-title + .tag-cloud-list {
 }
 #aside-content .card-info .card-info-social-icons .social-icon {
   margin: 0 10px;
-  color: var(--font-color);
+  color: #7d82b9;
   font-size: 1.4em;
 }
 #aside-content .card-info .card-info-social-icons i {
@@ -2556,22 +2556,19 @@ h1.page-title + .tag-cloud-list {
   transition: all 0.3s;
 }
 #aside-content .card-info .card-info-social-icons i:hover {
-  -webkit-transform: rotate(540deg);
-  -moz-transform: rotate(540deg);
-  -o-transform: rotate(540deg);
-  -ms-transform: rotate(540deg);
-  transform: rotate(540deg);
+  color: #a7d6eb;
 }
 #aside-content .card-info #card-info-btn {
   display: block;
   margin-top: 14px;
-  background-color: var(--btn-bg);
+  background-color: #7d82b9;
   color: var(--btn-color);
   text-align: center;
   line-height: 2.4;
+  border-radius: 10px;
 }
 #aside-content .card-info #card-info-btn:hover {
-  background-color: var(--btn-hover-color);
+  background-color: #a7d6eb;
 }
 #aside-content .card-info #card-info-btn span {
   padding-left: 10px;
@@ -2898,13 +2895,6 @@ h1.page-title + .tag-cloud-list {
   -ms-transition: filter 375ms ease-in 0.2s, -ms-transform 0.3s;
   transition: filter 375ms ease-in 0.2s, transform 0.3s;
   object-fit: cover;
-}
-.avatar-img img:hover {
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
 }
 @media screen and (min-width: 900px) {
   html.hide-aside .layout {
