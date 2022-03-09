@@ -3548,10 +3548,10 @@ h1.page-title + .tag-cloud-list {
   color: var(--white);
 }
 #nav a {
-  color: var(--light-grey);
+  color: var(--white);
 }
 #nav a:hover {
-  color: var(--white);
+  color: var(--light-grey);
 }
 #nav #site-name {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
